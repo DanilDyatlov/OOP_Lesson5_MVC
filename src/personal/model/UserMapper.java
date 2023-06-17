@@ -1,6 +1,7 @@
 package personal.model;
 
 public class UserMapper {
+    // формат строки отправляю пользователю или преобразует в user
     public String map(User user) {
         return String.format("%s,%s,%s,%s", user.getId(), user.getFirstName(), user.getLastName(), user.getPhone());
     }
